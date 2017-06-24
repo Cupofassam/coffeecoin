@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Coffe Coin
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-list>
+	
+<ion-card>
+  <ion-card-header>
+    Origin on Hudson
+  </ion-card-header>
+  <ion-card-content>
+    <p> Ice Coffee </p>
+    <p> R10 </p>
+    <p> 20 Left </p>    
+  </ion-card-content>
+  <button ion-button full (click)="showPrompt()"> Claim </button>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    Nitro Coffee on Bree
+  </ion-card-header>
+  <ion-card-content>
+    <p> Espresso </p>
+    <p> R5 </p>
+    <p> 15 Left </p>    
+  </ion-card-content>
+  <button ion-button full> Claim </button>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    Truth in Greenpoint
+  </ion-card-header>
+  <ion-card-content>
+    <p> Americano </p>
+    <p> R15 </p>
+    <p> 30 Left </p>    
+  </ion-card-content>
+  <button ion-button full> Claim </button>
+</ion-card>
+
+<ion-item>
+ <button ion-button full (click)="navigate()"> Go to order Page </button>
+ </ion-item>
+
+
+</ion-list>
+
+
+</ion-content>
