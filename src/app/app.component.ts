@@ -9,7 +9,7 @@ import { HomePage } from '../pages/home/home';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = HomePage;
+  rootPage: = HomePage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
@@ -25,6 +25,17 @@ export class MyApp {
         storageBucket: "coffeecoin-332fc.appspot.com",
         messagingSenderId: "430230381152"
       });
+    
+    const unsubscribe = firebase.auth().onAuthStateChanged((user) => {
+      if (!user) {
+        this.rootPage = 'login';
+        unsubscribe();
+      } else {
+        this.rootPage = HomePage;
+        15
+        unsubscribe();
+      }
+    });
     });
   }
 }
