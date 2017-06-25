@@ -55923,10 +55923,9 @@ HomePage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
         selector: 'page-home',template:/*ion-inline-start:"C:\Users\Samantha\Desktop\coffeecoin\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Coffe Coin\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n<ion-list>\n	\n<ion-card>\n  <ion-card-header>\n    Origin on Hudson\n  </ion-card-header>\n  <ion-card-content>\n    <p> Ice Coffee </p>\n    <p> R10 </p>\n    <p> 20 Left </p>    \n  </ion-card-content>\n  <button ion-button full (click)="showPrompt()"> Claim </button>\n</ion-card>\n\n<ion-card>\n  <ion-card-header>\n    Nitro Coffee on Bree\n  </ion-card-header>\n  <ion-card-content>\n    <p> Espresso </p>\n    <p> R5 </p>\n    <p> 15 Left </p>    \n  </ion-card-content>\n  <button ion-button full> Claim </button>\n</ion-card>\n\n<ion-card>\n  <ion-card-header>\n    Truth in Greenpoint\n  </ion-card-header>\n  <ion-card-content>\n    <p> Americano </p>\n    <p> R15 </p>\n    <p> 30 Left </p>    \n  </ion-card-content>\n  <button ion-button full> Claim </button>\n</ion-card>\n\n<ion-item>\n <button ion-button full (click)="navigate()"> Go to order Page </button>\n </ion-item>\n\n\n</ion-list>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Samantha\Desktop\coffeecoin\src\pages\home\home.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* AlertController */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* AlertController */]])
 ], HomePage);
 
-var _a, _b;
 //# sourceMappingURL=home.js.map
 
 /***/ }),
